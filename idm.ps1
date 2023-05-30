@@ -1,7 +1,7 @@
 # Enable TLSv1.2 for compatibility with older clients
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor [System.Net.SecurityProtocolType]::Tls12
 
-$DownloadURL = 'https://raw.githubusercontent.com/nguyenhiep.2805/Activation-Script/main/IDM.cmd'
+$DownloadURL = 'https://raw.githubusercontent.com/nguyenhiep2805/Activation-Script/main/idm.cmd'
 
 $FilePath = "$env:TEMP\IAS.cmd"
 
